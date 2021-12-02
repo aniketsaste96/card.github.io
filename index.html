@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design of form</title>
+    <style>
+    input{
+            border:hidden;
+            border-bottom: 2px solid black;
+            
+        }
+    
+    h2{
+        background-color: red;
+        background-size: cover;
+        background-size: contain;
+        color: white;
+        padding: 20px;
+    }
+    input:placeholder-shown {
+             font-style: italic;
+                    }
+    form{
+        border: 2px solid black;
+        width: 450px;
+      
+       
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+       
+    }
+    body,html{   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+body {
+    display:table-cell;
+    vertical-align:middle;
+}
+form {
+    display:table;
+    margin:auto;
+}
+
+
+        
+    </style>
+</head>
+<body>      
+   <form action="">
+    <h2>Yes! I want to subscribe to <em>Mag-O-Zine</em> </h2>
+    <div> 
+  <input type="text" name="" id="FirstName" placeholder="First Name" >
+  &emsp;   &emsp; 
+
+    <input type="text"  name="" id="LastName" placeholder="Last Name">    
+    <pre><label for="" id="FirstName">First Name</label>              <label for="" id="LastName">Last Name</label>  
+     </pre>  
+    </div>
+  
+       <input type="text" name="" id="Add" placeholder="Address">
+       <pre><label for=""id="Add">Address</label></pre>      
+  
+
+       <input type="text" name="" id="city" placeholder="City">
+       <input type="text" name="" id="state"placeholder="state">       
+       <input type="text" name="" id="zip"placeholder="Zip">
+    <pre><label for=""id="city">city</label>               <label for=""id="state">state</label placeholder="State">              <label for=""id="zip">zip</label></pre>      
+           
+        <label for="" name = "check">Subscribed for :</label>                 
+        <input type="checkbox" name="check" id="">1 year ($19.95)</input>
+        <input type="checkbox" name="check" id="">2 year ($35.00)</input>
+ 
+        <br>
+         <label for="">Send Me more information about</label><br>
+         <input type="checkbox" name="" id="">Computer-Zine</input><br>
+         <input type="checkbox" name="" id="">Fishing -Zine</input><br>
+         <input type="checkbox" name="" id="">Cat-O-Zine</input>
+
+   
+      
+           
+
+
+   </form>
+
+</body>
+</html>
